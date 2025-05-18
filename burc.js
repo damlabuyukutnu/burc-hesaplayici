@@ -13,9 +13,9 @@ let burc= (ay=== 'Ocak' && gun >= 1 && gun <= 20) || (ay === 'Aralık' && gun >=
           (ay=== 'Ekim' && gun >= 1 && gun <= 23) || (ay === 'Eylül' && gun >= 24 && gun <= 30) ? 'Terazi' :
           (ay=== 'Kasım' && gun >= 1 && gun <= 22) || (ay === 'Ekim' && gun >= 24 && gun <= 31) ? 'Akrep' :
           (ay=== 'Aralık' && gun >= 1 && gun <= 21) || (ay === 'Kasım' && gun >= 23 && gun <= 30) ? 'Yay' :
-          
+          'Geçersiz tarih veya ay';
 
-console.log(`Merhaba ${burc} burcusunuz.`)  
+console.log(`Merhaba ${burc} burcusunuz.`);
 
 
 
